@@ -7,4 +7,8 @@ client = commands.Bot(command_prefix = '!:')
 async def on_ready():
     print('Paimon is ready!')
 
-client.run('tokengoeshere')
+tokenFile = open("token.txt", "r")
+tokenStr = tokenFile.read()
+tokenFile.close()
+
+client.run(tokenStr)
