@@ -1,1 +1,0 @@
-__pycache__ $ git rm --cached __pycache__ rm __pycache__ $ git commit -m Ignoring pycache
